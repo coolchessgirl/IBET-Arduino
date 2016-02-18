@@ -11,7 +11,7 @@ void setup()
 void loop()
 {
   int val=analogRead(sense);
-  Serial.println(val);
+  Serial.println(val);//prints value
   if(val>=900)
   {
     Serial.println("Something obstructed the sensor!");
